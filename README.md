@@ -187,7 +187,7 @@ await client.sendMessage( m.chat,{ image: { url: scrappedURL }, caption: lyrics 
 ```
 <br><br>
 
-<h2 align="center">❌videos video scraper:
+<h2 align="center">❌videos scraper:
 </h2>
 
 - Normal use:
