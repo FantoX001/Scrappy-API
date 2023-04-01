@@ -1,27 +1,25 @@
 <h1 align="center">Scrappy API</a>
 </h1>
 
-<h4 align="center">A 4 in 1 scraper API with `Genius Lyrics`, `Instagram`, `Facebook` and `Xvideos` scrapper.
+<h4 align="center">A 4 in 1 scraper API with Genius Lyrics, Instagram, Facebook and ❌videos scraper coded by FantoX powerded by <a href="https://nodejs.org/en">Node.js</a>, <a href="https://expressjs.com/">Express.js</a> and <a href="https://vercel.com/">Vercel.com</a> free hosting.
 </h4>
 
 <p align="center">
-<a href="#"><img title="Rest-Api" src="https://img.shields.io/badge/Free Rest Api-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
+<a href="#"><img title="Rest-Api" src="https://img.shields.io/badge/Rest Api-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
+</p>
+
+
+<p align="center">
+<a href="https://github.com/FantoX001/Scrappy-API"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FFantoX001%2FScrappy-API&count_bg=%23FFA305&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=Total+Hits&edge_flat=false)](https://hits.seeyoufarm.com" width="150px" /></a>
 </p>
 
 <p align="center">
-<a href="https://github.com/FantoX001/Scrappy-AP/fork">
-    <img src="https://img.shields.io/github/forks/FantoX001/Scrappy-AP?label=Fork&style=social">
-    </a>
-    
-  <a href="https://github.com/FantoX001/Scrappy-AP/stargazers">
-    <img src="https://img.shields.io/github/stars/FantoX001/Scrappy-AP?style=social">
-  </a>
+<a href="https://github.com/FantoX001"><img title="Author" src="https://img.shields.io/badge/Developer-FantoX001-orange.svg?style=for-the-badge&logo=github" width="180px"></a>
 
-</p>
 
 <p align="center">
-<a href="https://github.com/inirey/Followers"><img title="Followers" src="https://img.shields.io/github/followers/FantoX001?color=blue&style=flat-square"></a>
-<a href="https://github.com/FantoX001/Scrappy-API"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FFantoX001%2FScrappy-API&count_bg=%23FFA305&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=Total+Hits&edge_flat=false)](https://hits.seeyoufarm.com"/></a>
+<a href="https://github.com/FantoX001/Scrappy-API"><img title="Open Source" src="https://img.shields.io/badge/Free%20To%20Use-YES-green.svg?style=for-the-badge" width="140px"></a>
+<a href="https://github.com/FantoX001/Scrappy-API"><img title="" src="https://img.shields.io/badge/Maintained-Yes-green.svg?style=for-the-badge" width="140px"></a>
 </p>
   
 </p>
@@ -30,12 +28,12 @@
 
 ## 🧩 Install dependencies:
 
+<h3><b>Using Node Package Manager (NPM): </b></h3>
+
 ```
 npm i axios
 ```
-<p align="center">
-Or
-</p>
+<h3><b>Using Yet Another Resource Negotiator (YARN): </b></h3>
 
 ```
 yarn add axios
@@ -43,8 +41,25 @@ yarn add axios
 
 <br>
 
-## 🧩 API Endpoints & Usage:
+## 🎀 API Endpoints & Usage:
 
+<h3><b>Endpoints: </b></h3>
+
+```
+https://fantox001-scrappy-api.vercel.app/fbdl?url=PUT PUBLIC FACEBOOK VIDEO URL HERE
+```
+
+```
+https://fantox001-scrappy-api.vercel.app/instadl?url=PUT PUBLIC INSTAGRAM VIDEO/REEL URL HERE
+```
+
+```
+https://fantox001-scrappy-api.vercel.app/lyrics?search=PUT A SHORT SONG NAME
+```
+
+```
+https://fantox001-scrappy-api.vercel.app/xvideos?search=PUT A ❌videos SEARCH TERM
+```
 
 <br>
 
@@ -52,7 +67,8 @@ yarn add axios
 </h2>
 
 
-- Normal use:
+<h3><b>Normal use: </b></h3>
+
 ```
 const axios = require("axios");
 
@@ -72,7 +88,8 @@ async function main() {
 
 <br>
 
-- In WhatsApp bot or any other bots:
+<h3><b>In WhatsApp bots: </b></h3>
+
 ```
 // Note: Bot's code definition will vary from one bot to another. So please use it according to your bot's code.
 
@@ -97,7 +114,8 @@ await client.sendMessage( m.chat,{ video: { url: scrappedURL }, caption: `_Scrap
 <h2 align="center">🎬 Instagram video scraper:
 </h2>
 
-- Normal use:
+<h3><b>Normal use: </b></h3>
+
 ```
 const axios = require("axios");
 
@@ -117,7 +135,8 @@ async function main() {
 
 <br>
 
-- In WhatsApp bot or any other bots:
+<h3><b>In WhatsApp bots: </b></h3>
+
 ```
 // Note: Bot's code definition will vary from one bot to another. So please use it according to your bot's code.
 
@@ -143,7 +162,8 @@ await client.sendMessage( m.chat,{ video: { url: scrappedURL }, caption: `_Scrap
 </h2>
 
 
-- Normal use:
+<h3><b>Normal use: </b></h3>
+
 ```
 const axios = require("axios");
 
@@ -165,7 +185,8 @@ async function main() {
 
 <br>
 
-- In WhatsApp bot or any other bots:
+<h3><b>In WhatsApp bots: </b></h3>
+
 ```
 // Note: Bot's code definition will vary from one bot to another. So please use it according to your bot's code.
 
@@ -190,7 +211,8 @@ await client.sendMessage( m.chat,{ image: { url: scrappedURL }, caption: lyrics 
 <h2 align="center">❌videos scraper:
 </h2>
 
-- Normal use:
+<h3><b>Normal use: </b></h3>
+
 ```
 const axios = require("axios");
 
@@ -210,7 +232,8 @@ async function main() {
 
 <br>
 
-- In WhatsApp bot or any other bots:
+<h3><b>In WhatsApp bots: </b></h3>
+
 ```
 // Note: Bot's code definition will vary from one bot to another. So please use it according to your bot's code.
 
