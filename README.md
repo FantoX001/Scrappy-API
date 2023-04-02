@@ -10,7 +10,7 @@
 <h1 align="center">Scrappy API</a>
 </h1>
 
-<h3 align="center">A 4 in 1 scraper API with Genius Lyrics, Instagram, Facebook and ❌videos scraper coded by <a href="https://github.com/FantoX001">FantoX</a> powerded by <a href="https://nodejs.org/en">Node.js</a>, <a href="https://expressjs.com/">Express.js</a> and <a href="https://vercel.com/">Vercel.com</a> free hosting.
+<h3 align="center">A 4 in 1 scraper API with Genius Lyrics, Instagram, Facebook and ❌videos scraper coded by <a href="https://github.com/FantoX001">FantoX</a> powered by <a href="https://nodejs.org/en">Node.js</a>, <a href="https://expressjs.com/">Express.js</a> and <a href="https://vercel.com/">Vercel.com</a> free hosting.
 </h3>
 
 <p align="center">
