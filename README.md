@@ -39,12 +39,12 @@
 
 <h3><b>Using Node Package Manager (NPM): </b></h3>
 
-```
+```sh
 npm i axios
 ```
 <h3><b>Using Yet Another Resource Negotiator (YARN): </b></h3>
 
-```
+```sh
 yarn add axios
 ```
 
@@ -78,7 +78,7 @@ https://fantox001-scrappy-api.vercel.app/xvideos?search=PUT A ❌videos SEARCH T
 
 <h3><b>Normal use: </b></h3>
 
-```
+```js
 const axios = require("axios");
 
 async function main() {
@@ -99,7 +99,7 @@ async function main() {
 
 <h3><b>In WhatsApp bots: </b></h3>
 
-```
+```js
 // Note: Bot's code definition will vary from one bot to another. So please use it according to your bot's code.
 
 const axios = require("axios");
@@ -125,7 +125,7 @@ await client.sendMessage( m.chat,{ video: { url: scrappedURL }, caption: `_Scrap
 
 <h3><b>Normal use: </b></h3>
 
-```
+```js
 const axios = require("axios");
 
 async function main() {
@@ -146,7 +146,7 @@ async function main() {
 
 <h3><b>In WhatsApp bots: </b></h3>
 
-```
+```js
 // Note: Bot's code definition will vary from one bot to another. So please use it according to your bot's code.
 
 const axios = require("axios");
@@ -173,7 +173,7 @@ await client.sendMessage( m.chat,{ video: { url: scrappedURL }, caption: `_Scrap
 
 <h3><b>Normal use: </b></h3>
 
-```
+```js
 const axios = require("axios");
 
 async function main() {
@@ -196,7 +196,7 @@ async function main() {
 
 <h3><b>In WhatsApp bots: </b></h3>
 
-```
+```js
 // Note: Bot's code definition will vary from one bot to another. So please use it according to your bot's code.
 
 const axios = require("axios");
@@ -222,7 +222,7 @@ await client.sendMessage( m.chat,{ image: { url: scrappedURL }, caption: lyrics 
 
 <h3><b>Normal use: </b></h3>
 
-```
+```js
 const axios = require("axios");
 
 async function main() {
@@ -243,7 +243,7 @@ async function main() {
 
 <h3><b>In WhatsApp bots: </b></h3>
 
-```
+```js
 // Note: Bot's code definition will vary from one bot to another. So please use it according to your bot's code.
 
 const axios = require("axios");
@@ -261,5 +261,3 @@ const scrappedURL = res.data.videoUrl
 await client.sendMessage( m.chat,{ video: { url: scrappedURL }, caption: `_Scrappy API by: FantoX001_` },{ quoted: m });
   
 ```
-
-
