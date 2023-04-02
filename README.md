@@ -23,7 +23,7 @@
 </p>
 
 <p align="center">
-<a href="https://github.com/FantoX001"><img title="Author" src="https://img.shields.io/badge/Developer-FantoX001-orange.svg?style=for-the-badge&logo=github" width="180px"></a>
+<a href="https://github.com/FantoX001"><img title="Author" src="https://img.shields.io/badge/Developer-FantoX001-white.svg?style=for-the-badge&logo=github" width="180px"></a>
 
 
 <p align="center">
