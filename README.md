@@ -280,7 +280,7 @@ async function main() {
 
 <br><br>
 
-<h2 align="center">📜 Random Tech news scraper
+<h2 align="center">💻 Random Tech news scraper
 </h2>
 
 
