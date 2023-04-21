@@ -10,7 +10,7 @@
 <h1 align="center">Scrappy API</a>
 </h1>
 
-<h3 align="center">A 4 in 1 scraper API with Genius Lyrics, Instagram, Facebook and ❌videos scraper coded by <a href="https://github.com/FantoX001">FantoX</a> powered by <a href="https://nodejs.org/en">Node.js</a>, <a href="https://expressjs.com/">Express.js</a> and <a href="https://vercel.com/">Vercel.com</a> free hosting.
+<h3 align="center">A 6 in 1 scraper API with Genius Lyrics, Tech news ( gadgets360.com ), Tech News Random ( gadgets360.com random news page ), Instagram, Facebook and ❌videos scraper coded by <a href="https://github.com/FantoX001">FantoX</a> powered by <a href="https://nodejs.org/en">Node.js</a>, <a href="https://expressjs.com/">Express.js</a> and <a href="https://vercel.com/">Vercel.com</a> free hosting.
 </h3>
 
 <p align="center">
@@ -37,12 +37,12 @@
 
 ## 🧩 Install dependencies:
 
-<h3><b>Using Node Package Manager (NPM): </b></h3>
+<h3><b>Using NPM: </b></h3>
 
 ```
 npm i axios
 ```
-<h3><b>Using Yet Another Resource Negotiator (YARN): </b></h3>
+<h3><b>Using YARN: </b></h3>
 
 ```
 yarn add axios
@@ -54,12 +54,13 @@ yarn add axios
 
 <h3><b>Endpoints: </b></h3>
 
+
 ```
-https://fantox001-scrappy-api.vercel.app/fbdl?url=PUT PUBLIC FACEBOOK VIDEO URL HERE
+https://fantox001-scrappy-api.vercel.app/technews
 ```
 
 ```
-https://fantox001-scrappy-api.vercel.app/instadl?url=PUT PUBLIC INSTAGRAM VIDEO/REEL URL HERE
+https://fantox001-scrappy-api.vercel.app/technews/random
 ```
 
 ```
@@ -69,6 +70,16 @@ https://fantox001-scrappy-api.vercel.app/lyrics?search=PUT A SHORT SONG NAME
 ```
 https://fantox001-scrappy-api.vercel.app/xvideos?search=PUT A ❌videos SEARCH TERM
 ```
+
+```
+https://fantox001-scrappy-api.vercel.app/fbdl?url=PUT PUBLIC FACEBOOK VIDEO URL HERE
+```
+
+```
+https://fantox001-scrappy-api.vercel.app/instadl?url=PUT PUBLIC INSTAGRAM VIDEO/REEL URL HERE
+```
+
+
 
 <br>
 
