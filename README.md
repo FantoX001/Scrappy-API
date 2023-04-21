@@ -13,6 +13,8 @@
 <h3 align="center">A 6 in 1 scraper API with Genius Lyrics, Tech news ( gadgets360.com ), Tech News Random ( gadgets360.com random news page ), Instagram, Facebook and ❌videos scraper coded by <a href="https://github.com/FantoX001">FantoX</a> powered by <a href="https://nodejs.org/en">Node.js</a>, <a href="https://expressjs.com/">Express.js</a> and <a href="https://vercel.com/">Vercel.com</a> free hosting.
 </h3>
 
+<br>
+
 <h3 align="center">Scrappy - The first Made in India Facebook and Instagram Scraper API.
  </h3>
 
