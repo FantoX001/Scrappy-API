@@ -13,6 +13,9 @@
 <h3 align="center">A 6 in 1 scraper API with Genius Lyrics, Tech news ( gadgets360.com ), Tech News Random ( gadgets360.com random news page ), Instagram, Facebook and ❌videos scraper coded by <a href="https://github.com/FantoX001">FantoX</a> powered by <a href="https://nodejs.org/en">Node.js</a>, <a href="https://expressjs.com/">Express.js</a> and <a href="https://vercel.com/">Vercel.com</a> free hosting.
 </h3>
 
+<h3 align="center">Scrappy - The first Made in India Facebook and Instagram Scraper API.
+ </h3>
+
 <p align="center">
 <a href="#"><img title="Rest-Api" src="https://img.shields.io/badge/Rest Api-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
 </p>
@@ -430,4 +433,10 @@ await client.sendMessage( m.chat,{ video: { url: scrappedURL }, caption: `_Scrap
   
 ```
 
+## 📛 Frequently asked questions:
 
+Q. Why source code of this API is not public ?
+- Scraping is in other words stealing data from an website without permission. Also almost no websites allows it as it puts extra load on their servers. So with respect to their policies I didn't made the source code public.
+
+Q. Will you sell this source code for money ?
+- No, I don't work for money. As a node.js lover, I only work for fun or experiment.
